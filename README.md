@@ -41,10 +41,15 @@ If need enter into the container, you can using the next command **docker exec -
 $ docker exec -it  729b1ae0f2b7  /bin/bash -c " export TERM=xterm; exec bash;"
 ```
 
+<<<<<<< HEAD
 After first run, you can connect to the PostgreSQL as an administrator from the inside
 the container. Default password for user **docker** is: **docker**
 ```
 $ psql -h localhost -U docker docker
 ```
+=======
+
+
+>>>>>>> ba14027124b90c820050f24b201bc4ab2d3599d7
 
 
